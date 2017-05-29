@@ -201,3 +201,50 @@
   padding: 10px;
   border: 1px solid white;
 }
+
+/** footer **/
+footer{
+  background-color: #2B2B2B;
+  color: white;
+}
+
+.divider{
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.icons-social{
+  color: white;
+}
+
+.icons-social > i{
+  margin-right: 10px;
+}
+
+.list-unstyled > li{
+  margin: 20px 0;
+}
+.list-unstyled > li > a{
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans';
+}
+
+.p-40{
+  padding: 60px 40px;
+}
+
+.align-flex{
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 767px) {
+  .align-flex{
+    align-items: flex-start;
+  }
+
+  .margin-mobile{
+    margin-top: 60px;
+  }
+}
