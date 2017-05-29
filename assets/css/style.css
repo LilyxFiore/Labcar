@@ -29,6 +29,13 @@
   padding: 20px;
 }
 
+
+@media (max-width: 767px) {
+  .navbar-brand{
+    position: absolute;
+    left: 40%;
+  }
+}
 /** section hero **/
 #hero{
   background-image: url("../img/taxi.jpg");
