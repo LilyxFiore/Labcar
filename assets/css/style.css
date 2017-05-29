@@ -164,3 +164,40 @@
 .bg-yellowdark{
   background-color: #F7B617;
 }
+
+
+/** seccion tarifas**/
+#tarifa{
+  color: white;
+  padding: 30px;
+}
+
+.input-tarifa{
+  font-family: 'Open Sans';
+  background-color: #F7B617;
+  margin: 20px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 80%;
+}
+
+.input-tarifa::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.align-center{
+  display: flex;
+  justify-content: center;
+}
+
+#mapa {
+ height: 300px;
+ width: 100%;
+}
+
+.border-map{
+  padding: 10px;
+  border: 1px solid white;
+}
