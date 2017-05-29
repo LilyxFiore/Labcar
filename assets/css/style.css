@@ -33,7 +33,7 @@
 @media (max-width: 767px) {
   .navbar-brand{
     position: absolute;
-    left: 40%;
+    margin-left: 10%;
   }
 }
 /** section hero **/
@@ -125,7 +125,8 @@
   }
 
   .cel{
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
   }
 
   .border-cel{
@@ -139,4 +140,27 @@
 
 .f-14{
   font-size: 14px;
+}
+
+/** section conduce **/
+#conduce{
+  background-image: url("../img/conduce.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+}
+
+.content-right{
+  height: 350px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.m-top-60{
+  margin-top: 60px;
+}
+
+.bg-yellowdark{
+  background-color: #F7B617;
 }
