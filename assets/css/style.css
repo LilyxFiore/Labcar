@@ -86,7 +86,52 @@
 .m-top-18{
   margin-top: 18px;
 }
+
+@media (max-width: 767px) {
+  .square-right{
+    margin-top: 30%;
+    width: 70%;
+    padding: 40px;
+  }
+}
 /** section informacion **/
 #informacion{
   background-color: #F7B617;
+  color: white;
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.f-20{
+ font-size: 20px;
+}
+
+.border-info{
+  border: 1px solid white;
+  border-top: 2px solid white;
+  border-left: 0;
+}
+
+.p-20-info{
+  padding: 20px 20px 20px 0;
+}
+
+@media (max-width: 767px) {
+  .border-info{
+    border-style: none;
+  }
+
+  .cel{
+    margin-left: 25%;
+  }
+
+  .border-cel{
+    border:1px solid white;
+  }
+
+  .p-20-info{
+    padding: 20px;
+  }
 }
