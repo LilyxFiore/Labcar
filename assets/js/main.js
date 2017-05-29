@@ -28,4 +28,10 @@ function initMap() {
      handleLocationError(false, infoWindow, map.getCenter());
    }
 
+   var origen = document.getElementById("origen");
+   var destino = document.getElementById("destino");
+   var autocompleteOrigen = new google.maps.places.Autocomplete(origen);
+       autocompleteOrigen.bindTo('bounds', map);
+   var autocompleteDestino = new google.maps.places.Autocomplete(destino);
+       autocompleteDestino.bindTo('bounds', map);
 }
