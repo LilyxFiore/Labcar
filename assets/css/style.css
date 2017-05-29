@@ -70,10 +70,9 @@
 }
 
 .line{
-  width: 100px;
+  background-color: transparent;
+  border: 0;
   border-bottom: 1px solid white;
-  display: inline-block;
-  margin: 0 20px;
 }
 
 .m-top-b-20{
@@ -82,4 +81,12 @@
 
 .f-32{
   font-size: 32px;
+}
+
+.m-top-18{
+  margin-top: 18px;
+}
+/** section informacion **/
+#informacion{
+  background-color: #F7B617;
 }
