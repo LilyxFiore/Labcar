@@ -1,7 +1,7 @@
 # Proyecto Spring 4:
 ## Tema: Boostrap
 ### Descripción:
-#####El siguiente proyecto tiene como finalidad aplicar el framework "Bootstrap" y la utilización de la Api de google maps".
+##### El siguiente proyecto tiene como finalidad aplicar el framework "Bootstrap" y la utilización de la Api de google maps".
 Para ello se maquetizará en las siguientes secciones:
 1. Header - menú navegador que en vista móvil deberá presentar el menú hamburguesa.
 2. Sección "Hero" que tendrá de fondo una imagen y algunos elementos que desaparecerán en vista móvil.
